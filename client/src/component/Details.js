@@ -39,16 +39,16 @@ const Details = () => {
         <div className="left_view col-lg-6 col-md-6 col-12">
           <img src="/profile.png" style={{ width: 50 }} alt="profile" />
           <h3 className="mt-3">
-            Name: <span>{getuserdata.name}</span>
+            Item: <span>{getuserdata.name}</span>
           </h3>
           <h3 className="mt-3">
-            Age: <span>{getuserdata.price}</span>
+            Price: <span>{getuserdata.price}</span>
           </h3>
           <p className="mt-3">
             Email: <span>{getuserdata.condition}</span>
           </p>
           <p className="mt-3">
-            Occuption: <span>{getuserdata.url}</span>
+            pic: <span><img src={getuserdata.url}/></span>
           </p>
         </div>
       </div>

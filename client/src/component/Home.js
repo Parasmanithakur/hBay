@@ -88,6 +88,7 @@ const Home = () => {
         </div>
       ) : (
         <>
+          <div className="mt-5">
           <div className="add_btn mt-2 mb-2">
             <NavLink to="/login" className="btn btn-primary">
               Login
@@ -97,6 +98,7 @@ const Home = () => {
             <NavLink to="/rlogin" className="btn btn-primary">
               SignUp
             </NavLink>
+          </div>
           </div>
         </>
       )}

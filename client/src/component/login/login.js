@@ -60,6 +60,7 @@ export const Login = ({ setLoginUser }) => {
   };
 
   return (
+    <div class="d-flex justify-content-center">
     <div className="login">
       {udata.name != "" ? (
         <div
@@ -95,6 +96,7 @@ export const Login = ({ setLoginUser }) => {
       <div className="button" onClick={login}>
         Login
       </div>
+    </div>
     </div>
   );
 };

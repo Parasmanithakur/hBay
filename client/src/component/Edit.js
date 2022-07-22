@@ -84,6 +84,7 @@ const Edit = () => {
   };
 
   return (
+    <div class="d-flex justify-content-center">
     <div className="container">
       <NavLink to="/">home2</NavLink>
       <form className="mt-4">
@@ -187,6 +188,7 @@ const Edit = () => {
           </button>
         </div>
       </form>
+    </div>
     </div>
   );
 };

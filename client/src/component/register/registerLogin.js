@@ -45,6 +45,7 @@ export const RegisterLogin = () => {
     }
   };
   return (
+    <div class="d-flex justify-content-center">
     <div className="register">
       {console.log("User", user)}
       <h1>Register</h1>
@@ -78,6 +79,7 @@ export const RegisterLogin = () => {
       ></input>
       <div className="button" onClick={addinpdta}>
         Register
+      </div>
       </div>
     </div>
   );

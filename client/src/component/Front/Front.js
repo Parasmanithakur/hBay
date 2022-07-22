@@ -46,7 +46,7 @@ function Front() {
       </Carousel>
 
       <div className="add_btn mt-2 mb-2">
-        <NavLink to="/home" className="btn btn-primary">
+        <NavLink to="/home" className="btn btn-secondary btn-lg">
           View Listing
         </NavLink>
       </div>
