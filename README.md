@@ -4,7 +4,7 @@
 <br />
 
 <div align="center">
-
+<img src="https://github.com/Parasmanithakur/hBay/blob/main/client/src/component/icon.png" alt="Logo" width="80" height="80">
   <h3 align="center">Hostel Bay</h3>
 A web App for buying /selling old stuff used in everyday hostel life
 </div>
