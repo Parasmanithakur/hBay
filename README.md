@@ -3,38 +3,36 @@
 <br />
 <div align="center">
 
-    ![](".\client\src\component\icon.png/logo.png")
+    ![]("./client/src/component/icon.png")
 
   <h3 align="center">Hostel Bay</h3>
 A web App for buying /selling old stuff used in everyday hostel life
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Parasmanithakur/hBay.git
-   ```
-2. Install NPM packages
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/Parasmanithakur/hBay.git
+    ```
+2.  Install NPM packages
 
-   ```sh
-   npm install
-   ```
+    ```sh
+    npm install
+    ```
 
-3. Run app.js From server with nodemon
+3.  Run app.js From server with nodemon
 
-   ````
+    ```
     cd .\server
     nodemon app.js
     ```
 
-   ````
+4.  Run the react app
 
-4. Run the react app
-
-```
-  cd .\client
-  npm start
-```
+    ```
+    cd .\client
+    npm start
+    ```
 
 ![](./sample.png)
 
