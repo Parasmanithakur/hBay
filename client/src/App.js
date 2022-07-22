@@ -29,6 +29,9 @@ function App() {
           <Route path="/item" component={Item} />
         </Switch>
       </div>
+      <footer>
+        <p class="text-center">Copyright &copy; hBay</p>
+      </footer>
     </>
   );
 }

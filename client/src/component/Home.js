@@ -147,7 +147,7 @@ const Home = () => {
             <thead>
               <tr className="table-dark">
                 <th scope="col">Id</th>
-                <th scope="col">Owner</th>
+                <th scope="col">Item</th>
                 <th scope="col">image</th>
                 <th scope="col">Condition</th>
                 <th scope="col">Price</th>
