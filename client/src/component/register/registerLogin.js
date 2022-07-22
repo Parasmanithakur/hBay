@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./register.css";
-
+import { NavLink, useHistory } from "react-router-dom";
 export const RegisterLogin = () => {
-  //const history = useHistory()
+  const history = useHistory()
 
   const [user, setUser] = useState({
     name: "",
@@ -39,6 +39,7 @@ export const RegisterLogin = () => {
       else {
         alert("data added");
         console.log("data added");
+        history.push("/home");
       }
     } else {
       alert("password not matching");

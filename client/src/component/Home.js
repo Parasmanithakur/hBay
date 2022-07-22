@@ -88,18 +88,21 @@ const Home = () => {
         </div>
       ) : (
         <>
-          <div className="mt-5">
-          <div className="add_btn mt-2 mb-2">
+        <div class="d-flex justify-content-end">
+          
+          <div className="btn-group" role="group" aria-label="Basic example">
+          
             <NavLink to="/login" className="btn btn-primary">
               Login
             </NavLink>
-          </div>
-          <div className="add_btn mt-2 mb-2">
+         
             <NavLink to="/rlogin" className="btn btn-primary">
               SignUp
             </NavLink>
-          </div>
-          </div>
+      
+         </div>
+ 
+</div>
         </>
       )}
 
@@ -140,7 +143,7 @@ const Home = () => {
       <div className="mt-5">
         <div className="container">
           <div className="mt-2 mb-2">
-            <NavLink to="/register" className="btn btn-primary">
+            <NavLink to="/register" className="btn btn-secondary">
               Add Listing
             </NavLink>
           </div>
