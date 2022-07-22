@@ -1,5 +1,11 @@
 ## hBay -Hostel Bay
 
+<br />
+<div align="center">
+
+    <img src=".\client\src\component\icon.png/logo.png" alt="Logo" width="80" height="80">
+
+  <h3 align="center">Hostel Bay</h3>
 A web App for buying /selling old stuff used in everyday hostel life
 
 ### Installation
