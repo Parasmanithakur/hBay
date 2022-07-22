@@ -55,7 +55,7 @@ export const Login = ({ setLoginUser }) => {
     if (res.status === 422) alert(" error ");
     else {
       setLGData(data);
-      history.push("/");
+      history.push("/home");
     }
   };
 

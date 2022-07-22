@@ -14,16 +14,18 @@ import Front from "./component/Front/Front";
 function App() {
   return (
     <>
-      <Navbar />
+      {" "}
       <div className="dark">
+        <Navbar />
+
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Front} />
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/edit/:id" component={Edit} />
           <Route path="/view/:id" component={Details} />
           <Route path="/rlogin" component={RegisterLogin} />
-          <Route path="/home" component={Front} />
+          <Route path="/home" component={Home} />
           <Route path="/item" component={Item} />
         </Switch>
       </div>

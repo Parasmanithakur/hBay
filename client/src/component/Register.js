@@ -48,7 +48,7 @@ const Register = () => {
       alert("data added");
       console.log("data added");
       setUdata(data);
-      history.push("/");
+      history.push("/home");
     }
   };
   return (

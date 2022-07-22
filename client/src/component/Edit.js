@@ -78,7 +78,7 @@ const Edit = () => {
       alert("fill the data");
     } else {
       alert(" data");
-      history.push("/");
+      history.push("/home");
       setUPdata(data2);
     }
   };

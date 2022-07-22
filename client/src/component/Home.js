@@ -134,12 +134,12 @@ const Home = () => {
       ) : (
         ""
       )}
-      <Front />
+
       <div className="mt-5">
         <div className="container">
-          <div className="add_btn mt-2 mb-2">
+          <div className="mt-2 mb-2">
             <NavLink to="/register" className="btn btn-primary">
-              Add data
+              Add Listing
             </NavLink>
           </div>
 
