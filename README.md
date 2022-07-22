@@ -3,11 +3,11 @@
 <br />
 <div align="center">
 
-    ![]("./client/src/component/icon.png")
+    ![]("https://github.com/Parasmanithakur/hBay/blob/main/client/src/component/icon.png")
 
   <h3 align="center">Hostel Bay</h3>
 A web App for buying /selling old stuff used in everyday hostel life
-
+</div>
 ### Installation
 
 1.  Clone the repo
