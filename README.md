@@ -7,3 +7,7 @@ A web App for buying /selling old stuff used in everyday hostel life
 Login or singup easily
 
 ![](./sample2.png)
+
+made with
+
+![](https://static.javatpoint.com/blog/images/mern-stack.png)
