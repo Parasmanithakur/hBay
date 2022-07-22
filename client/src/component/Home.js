@@ -7,6 +7,7 @@ import {
   logindata,
 } from "./context/ContextProvider";
 import "./Home.css";
+import Front from "./Front/Front";
 const Home = () => {
   const { udata, setUdata } = useContext(adddata);
   const { updata, setUPdata } = useContext(updatedata);
@@ -133,7 +134,7 @@ const Home = () => {
       ) : (
         ""
       )}
-
+      <Front />
       <div className="mt-5">
         <div className="container">
           <div className="add_btn mt-2 mb-2">
