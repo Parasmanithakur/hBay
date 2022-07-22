@@ -3,7 +3,7 @@
 <br />
 <div align="center">
 
-    <img src=".\client\src\component\icon.png/logo.png" alt="Logo" width="80" height="80">
+    ![](".\client\src\component\icon.png/logo.png")
 
   <h3 align="center">Hostel Bay</h3>
 A web App for buying /selling old stuff used in everyday hostel life
@@ -20,7 +20,7 @@ A web App for buying /selling old stuff used in everyday hostel life
    npm install
    ```
 
-   3.Run app.js From server with nodemon
+3. Run app.js From server with nodemon
 
    ````
     cd .\server
@@ -29,14 +29,13 @@ A web App for buying /selling old stuff used in everyday hostel life
 
    ````
 
-3. Run the react app
+4. Run the react app
 
 ```
   cd .\client
   npm start
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 ![](./sample.png)
 
 Login or singup easily
